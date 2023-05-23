@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+    <title>Portfolio</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+        *{
+            margin:0px;
+            color:white;
+        }
+        #text{
+            text-align: center;
+            padding: 200px;
+            font-size: 70px;
+            font-family: 'Playball', cursive;
+            text-shadow: 2px 4px 3px rgba(0,0,0);
+        }
+        header{
+            background-image: url("anime.png");
+            background-size: cover;
+            margin-top: -120px;
+            height: 800px;
+        }
+        nav{
+            display:flex;
+            justify-content: center;
+            position:sticky;
+            top: 0px;
+            font-family: 'Playball', cursive;
+            column-gap: 220px;
+            background-color: rgba(0,0,0,0.3);
+            height:120px
+        }
+        .item{
+            padding-top:40px;
+            text-align: center;
+            font-size:25px;
+            width:200px;
+            font-size: 35px;
+        }
+        #about{
+            background-image: url("background-2.jpg");
+            text-align: center;
+            padding: 200px;
+            height: 353px;
+        }
+        #aboutHead{
+            font-size: 50px;
+            font-family: 'Playball', cursive;
+        }
+        #abtTxt{
+            font-size: 20px;
+            font-family: 'Merienda', cursive;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <div class="item"> 
+            <a href="http://127.0.0.1:5501/index.html" target="_blank">Home</a>
+        </div>
+        <div class="item">  
+            <a href="#about">About Me</a>
+        </div>
+        <div class="item">
+            <a href="https://brenda-meza.github.io/projects-page/" target="_blank">Projects</a>
+        </div>
+        <div class="item">
+            <a href="https://brenda-meza.github.io/resume/" target="_blank">Resume</a>
+        </div>
+    </nav>
+    <header id="image">
+        <div id="text">
+            <h3 class="title">Hello, I'm</h3>
+            <h1 id="name">Brenda Meza</h1>
+            <h3 class="title">A Coding Student</h3>
+        </div>
+    </header>
+    <div id="about">
+        <h1 id="aboutHead">About Me</h1>
+        <br>
+        <p id="abtTxt">
+            I am an aspiring web developer. I have a solid understanding of fundamental web technologies such as HTML, CSS and JavaScript and enjoy creating visually appealing and interactive websites. I am proficient in structuring web pages and organizing content effectively. I have a keen eye for design and utilize CSS to style and enhance the appearance of websites, ensuring a cohesive and polished look. In addition, I have a good grasp of JavaScript, allowing me to implement dynamic features and interactivity into my projects. I enjoy the process of problem-solving and finding creative solutions to challenges that arise during development. As a dedicated learner, I constantly strive to expand my knowledge and keep up with the latest trends and best practices in front-end development.
+        </p>
+        <br>
+    </div>
+</body>
+</html>
